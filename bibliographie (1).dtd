@@ -24,4 +24,4 @@
 <!ELEMENT datePublication (#PCDATA)>
 <!ELEMENT volume (#PCDATA)>
 <!ELEMENT pagination (#PCDATA)>
-
+ 
