@@ -1,0 +1,27 @@
+<!ELEMENT bibliographie (livre*, article*)>
+
+<!ELEMENT livre (titre, auteur, pages, edition, collection)>
+<!ATTLIST livre isbn CDATA #IMPLIED>
+
+<!ELEMENT edition (editeur, annee)>
+<!ATTLIST edition lieu CDATA "France">
+<!ELEMENT editeur (#PCDATA)>
+<!ELEMENT annee (#PCDATA)>
+
+<!ELEMENT collection (titre, numero)>
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT article (titre, auteur, periodique, datePublication, volume, numero, pagination)>
+<!ATTLIST article 
+    issn CDATA #IMPLIED
+    titreAbrege CDATA #IMPLIED>
+
+<!-- Déclarations communes -->
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT periodique (#PCDATA)>
+<!ELEMENT datePublication (#PCDATA)>
+<!ELEMENT volume (#PCDATA)>
+<!ELEMENT pagination (#PCDATA)>
+

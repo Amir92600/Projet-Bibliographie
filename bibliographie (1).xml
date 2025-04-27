@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliographie SYSTEM "bibliographie.dtd">
+<bibliographie>
+    <livre isbn="978-2-07-021-200-7">
+        <titre>L'Étranger</titre>
+        <auteur>Albert Camus</auteur>
+        <pages>123</pages>
+        <edition>
+            <editeur>Gallimard</editeur>
+            <annee>1942</annee>
+        </edition>
+        <collection>
+            <titre>Collection Blanche</titre>
+            <numero>1</numero>
+        </collection>
+    </livre>
+    <livre isbn="978-2-07-040468-3">
+        <titre>Germinal</titre>
+        <auteur>Émile Zola</auteur>
+        <pages>592</pages>
+        <edition>
+            <editeur>G. Charpentier</editeur>
+            <annee>1885</annee>
+        </edition>
+        <collection>
+            <titre>Les Rougon-Macquart</titre>
+            <numero>13</numero>
+        </collection>
+    </livre>
+    <article issn="1234-5678" titreAbrege="Avancées en énergie nucléaire">
+        <titre>Avancées récentes dans la recherche sur l'énergie nucléaire</titre>
+        <auteur>Jean Dupont</auteur>
+        <periodique>Journal de la Physique Nucléaire</periodique>
+        <datePublication>2024-04-09</datePublication>
+        <volume>57</volume>
+        <numero>4</numero>
+        <pagination>pp. 123-145</pagination>
+    </article>
+    <article issn="2345-6789" titreAbrege="Effets du changement climatique">
+        <titre>Étude des effets du changement climatique sur la biodiversité marine</titre>
+        <auteur>Marie Leclerc</auteur>
+        <periodique>Revue de Biologie Marine</periodique>
+        <datePublication>2024-03-15</datePublication>
+        <volume>101</volume>
+        <numero>1</numero>
+        <pagination>pp. 50-75</pagination>
+    </article>
+</bibliographie>
